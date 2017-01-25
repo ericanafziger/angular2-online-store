@@ -8,9 +8,9 @@ This project was generated with [angular-cli](https://github.com/angular/angular
 * Create new project
 * Click "Add Firebase to your web app" button
 * Include your given credentials with the following format in your api-keys.ts file:
-export var masterFirebaseConfig = {
-***    apiKey: "xxxx",
-***    authDomain: "xxxx.firebaseapp.com",
+* export var masterFirebaseConfig = {
+    * apiKey: "xxxx",
+    * authDomain: "xxxx.firebaseapp.com",
     databaseURL: "https://xxxx.firebaseio.com",
     storageBucket: "xxxx.appspot.com",
     messagingSenderId: "xxxx"
