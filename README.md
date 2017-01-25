@@ -11,10 +11,9 @@ This project was generated with [angular-cli](https://github.com/angular/angular
 * export var masterFirebaseConfig = {
     * apiKey: "xxxx",
     * authDomain: "xxxx.firebaseapp.com",
-    databaseURL: "https://xxxx.firebaseio.com",
-    storageBucket: "xxxx.appspot.com",
-    messagingSenderId: "xxxx"
-  };
+    * databaseURL: "https://xxxx.firebaseio.com",
+    * storageBucket: "xxxx.appspot.com",
+    * messagingSenderId: "xxxx" };
 * On the left hand menu navigate to Database and then the tab rules
 * Change both read and write rules to the boolean true
 * Navigate to the Data tab and click on the three dropdown dots
