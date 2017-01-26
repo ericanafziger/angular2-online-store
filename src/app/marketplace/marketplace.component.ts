@@ -10,10 +10,10 @@ import { AngularFire, FirebaseListObservable } from 'angularfire2';
   styleUrls: ['./marketplace.component.css'],
   providers: [AlbumService]
 })
-export class MarketplaceComponent implements RTCDTMFToneChangeEventInit {
+export class MarketplaceComponent implements OnInit {
 
   constructor(private router: Router, private albumService: AlbumService){}
-
+  currentRoute: string = this.router.url;
   albums: FirebaseListObservable<any[]>;
 
   ngOnInit() {
